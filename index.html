@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>صيانة مكيفات بالرياض | نسيم التبريد</title>
+
+<meta name="description" content="أفضل شركة صيانة مكيفات بالرياض. تنظيف مكيفات، تركيب، تعبئة فريون، إصلاح الأعطال. اتصل الآن 0543034423">
+
+<meta name="keywords" content="صيانة مكيفات الرياض, تنظيف مكيفات بالرياض, فني مكيفات بالرياض">
+
+<meta name="robots" content="index, follow">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+:root{
+--primary:#1677ff;
+--secondary:#0056b3;
+--orange:#ff9800;
+--dark:#333;
+--bg:#f5f7fb;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Cairo',sans-serif;
+}
+
+body{
+line-height:1.7;
+color:var(--dark);
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:0 20px;
+}
+
+/* HEADER */
+
+header{
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+height:70px;
+}
+
+.logo{
+font-size:20px;
+font-weight:900;
+color:var(--primary);
+display:flex;
+align-items:center;
+gap:8px;
+}
+
+.nav-links{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#333;
+font-weight:600;
+}
+
+.call-btn{
+background:var(--orange);
+color:white;
+padding:8px 18px;
+border-radius:30px;
+text-decoration:none;
+font-weight:700;
+}
+
+/* HERO */
+
+.hero{
+min-height:100vh;
+background:
+linear-gradient(rgba(0,50,100,.7),rgba(0,50,100,.7)),
+url("https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+text-align:center;
+color:white;
+margin-top:70px;
+padding:40px 0;
+}
+
+.hero h1{
+font-size:38px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+max-width:650px;
+margin:auto;
+margin-bottom:25px;
+}
+
+.hero-btn{
+background:var(--primary);
+color:white;
+padding:14px 28px;
+border-radius:6px;
+text-decoration:none;
+font-weight:700;
+margin:6px;
+display:inline-block;
+}
+
+.hero-phone{
+margin-top:15px;
+font-size:20px;
+font-weight:700;
+}
+
+/* FEATURES */
+
+.features{
+padding:80px 0;
+background:var(--bg);
+}
+
+.section-title{
+text-align:center;
+margin-bottom:50px;
+}
+
+.section-title h2{
+font-size:30px;
+color:var(--secondary);
+}
+
+.features-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px;
+}
+
+.feature-card{
+background:white;
+padding:30px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.05);
+transition:.3s;
+}
+
+.feature-card:hover{
+transform:translateY(-8px);
+}
+
+.feature-card i{
+font-size:36px;
+color:var(--primary);
+margin-bottom:15px;
+}
+
+/* SERVICES */
+
+.services{
+padding:80px 0;
+}
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.service-item{
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.service-img{
+height:200px;
+background-size:cover;
+background-position:center;
+}
+
+.service-content{
+padding:20px;
+}
+
+.service-content h3{
+color:var(--secondary);
+margin-bottom:10px;
+}
+
+/* CTA */
+
+.cta{
+background:var(--secondary);
+color:white;
+padding:60px 0;
+text-align:center;
+}
+
+.cta-btn{
+background:white;
+color:var(--secondary);
+padding:14px 30px;
+border-radius:40px;
+text-decoration:none;
+font-weight:700;
+display:inline-block;
+margin-top:20px;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:#ccc;
+padding:40px 0;
+text-align:center;
+}
+
+/* FLOAT BUTTONS */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+left:20px;
+background:#25D366;
+width:55px;
+height:55px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:26px;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.call-float{
+position:fixed;
+bottom:90px;
+left:20px;
+background:var(--orange);
+width:55px;
+height:55px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:22px;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:28px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+.hero-btn{
+display:block;
+width:100%;
+max-width:260px;
+margin:10px auto;
+}
+
+.nav-links{
+display:none;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container">
+
+<nav>
+
+<div class="logo">
+<i class="fa-solid fa-snowflake"></i>
+نسيم التبريد
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#home">الرئيسية</a></li>
+<li><a href="#services">الخدمات</a></li>
+<li><a href="#features">لماذا نحن</a></li>
+<li><a href="#contact">اتصل بنا</a></li>
+
+</ul>
+
+<a href="tel:0543034423" class="call-btn">
+0543034423
+</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="container">
+
+<h1>
+أفضل شركة صيانة مكيفات في الرياض
+</h1>
+
+<p>
+هل المكيف لا يبرد جيدًا؟ فريقنا المتخصص يصل إليك بسرعة لإصلاح الأعطال وتنظيف المكيف.
+</p>
+
+<a href="tel:0543034423" class="hero-btn">
+اتصل الآن
+</a>
+
+<a href="https://wa.me/966543034423" class="hero-btn">
+اطلب عبر واتساب
+</a>
+
+<div class="hero-phone">
+اتصل الآن: <strong>0543034423</strong>
+</div>
+
+</div>
+
+</section>
+
+<section class="features" id="features">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>لماذا يثق بنا سكان الرياض؟</h2>
+
+<p>خدمة سريعة وفنيون محترفون بأسعار مناسبة.</p>
+
+</div>
+
+<div class="features-grid">
+
+<div class="feature-card">
+<i class="fas fa-clock"></i>
+<h3>وصول سريع</h3>
+<p>نصل إليك في أسرع وقت داخل الرياض.</p>
+</div>
+
+<div class="feature-card">
+<i class="fas fa-user-shield"></i>
+<h3>فنيون محترفون</h3>
+<p>فريق متخصص في جميع أنواع المكيفات.</p>
+</div>
+
+<div class="feature-card">
+<i class="fas fa-medal"></i>
+<h3>ضمان حقيقي</h3>
+<p>ضمان على الصيانة وقطع الغيار.</p>
+</div>
+
+<div class="feature-card">
+<i class="fas fa-wallet"></i>
+<h3>أسعار مناسبة</h3>
+<p>أفضل جودة بأفضل سعر.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="services" id="services">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>خدماتنا</h2>
+
+<p>كل ما يحتاجه مكيفك في مكان واحد</p>
+
+</div>
+
+<div class="services-grid">
+
+<div class="service-item">
+
+<div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600');"></div>
+
+<div class="service-content">
+
+<h3>تنظيف المكيفات</h3>
+
+<p>تنظيف عميق يعيد قوة التبريد.</p>
+
+</div>
+
+</div>
+
+<div class="service-item">
+
+<div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600');"></div>
+
+<div class="service-content">
+
+<h3>إصلاح الأعطال</h3>
+
+<p>حل جميع مشاكل ضعف التبريد بسرعة.</p>
+
+</div>
+
+</div>
+
+<div class="service-item">
+
+<div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600');"></div>
+
+<div class="service-content">
+
+<h3>تركيب مكيفات</h3>
+
+<p>تركيب احترافي مع ضمان.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<div class="container">
+
+<h2>
+هل المكيف متوقف الآن؟
+</h2>
+
+<p>
+اتصل بنا الآن وسيصل إليك فني الصيانة فورًا.
+</p>
+
+<a href="tel:0543034423" class="cta-btn">
+
+اتصل الآن 0543034423
+
+</a>
+
+</div>
+
+</section>
+
+<footer id="contact">
+
+<div class="container">
+
+<p>نسيم التبريد - صيانة مكيفات بالرياض</p>
+
+<p>📞 0543034423</p>
+
+</div>
+
+</footer>
+
+<a href="https://wa.me/966543034423" class="whatsapp">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<a href="tel:0543034423" class="call-float">
+<i class="fas fa-phone"></i>
+</a>
+
+</body>
+</html>
