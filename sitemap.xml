@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://seifnabil72.github.io/</loc><priority>1.0</priority></url>
-  <url><loc>https://seifnabil72.github.io/ac-smell.html</loc><priority>0.8</priority></url>
-  <url><loc>https://seifnabil72.github.io/cleaning-tips.html</loc><priority>0.8</priority></url>
-  <url><loc>https://seifnabil72.github.io/freon-guide.html</loc><priority>0.8</priority></url>
-  <url><loc>https://seifnabil72.github.io/save-electricity.html</loc><priority>0.8</priority></url>
-  <url><loc>https://seifnabil72.github.io/maintenance-contracts.html</loc><priority>0.8</priority></url>
+  <url>
+    <loc>https://naseem-eltabreed.com/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://naseem-eltabreed.com/ac-smell.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://naseem-eltabreed.com/cleaning-tips.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://naseem-eltabreed.com/freon-guide.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://naseem-eltabreed.com/save-electricity.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://naseem-eltabreed.com/maintenance-contracts.html</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>
